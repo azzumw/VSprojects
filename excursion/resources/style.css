@@ -6,7 +6,7 @@ body{
     text-align: center;
     width: 1400px;
     margin: 0 auto;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
 .header{
@@ -20,4 +20,45 @@ a{
     color: aquamarine;
     font-size: 16px;
     display: block;
+    font-family: Verdana;
+}
+
+.video{
+    margin: 40px 0;
+}
+
+.heading{
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: 15px 0;
+}
+
+.heading p,footer{
+    color: grey;
+    font-size: 21px;
+}
+
+.landscape{
+    height: auto;
+    width: auto;
+    text-align: center;
+    /* border:1px solid grey; */
+    
+}
+
+.landscape img{
+    display: inline-block;
+}
+
+.phone{
+    margin: 20px 0;
+}
+
+footer{
+    margin: 20px 0;
+    padding: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
 }

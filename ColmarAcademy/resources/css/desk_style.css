@@ -8,13 +8,27 @@ header{
     height: 64px;
     width: 100%;
     border-bottom: 1px solid grey;
-    padding: 0 24px;
-    display: flex;
-    font-size: 22px;
+    /* padding: 0 24px; */
+    /* display: flex; */
+    /* font-size: 22px; */
     z-index: 2;
     position: fixed;
+    /* align-items: center; */
+    /* font-family: sans-serif; */
+}
+
+#desk-header{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    font-size: 22px;
     align-items: center;
     font-family: sans-serif;
+    padding: 0 24px;
+}
+
+#mob-header{
+    display: none;
 }
 
 #logo-section{

@@ -1,0 +1,17 @@
+@media only screen and (max-width:580px){
+    #desk-header{
+        display: none;
+    }
+
+    #mob-header{
+        height: inherit;
+        width: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #mob-header img{
+        flex-grow: 1;
+    }
+}

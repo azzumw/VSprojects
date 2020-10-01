@@ -1,4 +1,4 @@
-@media only screen and (max-width:580px){
+@media only screen and (max-device-width : 800px), (max-width:680px){
     #desk-header{
         display: none;
     }
@@ -14,4 +14,47 @@
     #mob-header img{
         flex-grow: 1;
     }
+
+    .section{
+        flex-direction: column;
+    }
+
+    .banner-section{
+        width: 100%;
+       padding:0;
+    }
+
+    .banner-section-right{
+        width: 100%;
+        padding-bottom: 32px;
+        padding-top: 32px;
+    }
+
+    .banner-section-right-inner-container{
+        width: 100%;
+        margin: 0 auto ;
+        padding: 0 16px;
+        /* border: 1px solid red; */
+    }
+    .banner-section-right h1{
+        /* border: 1px solid white; */
+        font-size: 52px;
+        display: inline;
+        text-align: start;
+    }
+
+    .banner-section-right p{
+        /* width: 55%; */
+        margin-top: 32px;
+        margin-bottom: 24px;
+        font-size: 36px;
+        display: inline-block;
+    }
+
+    #start-here-btn{
+        width: 100%;
+        background: rgb(128,128,128);
+        font-size: 30px;
+    }
+
 }

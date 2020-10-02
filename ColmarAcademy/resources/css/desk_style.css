@@ -109,7 +109,7 @@ nav ul li{
 
 .banner-section-right-inner-container{
     height: auto;
-    width: 355px;
+    width: 80%;
     /* width: 70%; */
     min-width: 355px;
     display: flex;
@@ -117,6 +117,7 @@ nav ul li{
     justify-content: center;
     color: rgb(64,64,64);
     margin: 32px 0;
+    font-size: 40px;
     /* border: 1px solid red; */
     /* font-size: 0.82vw; */
 }
@@ -138,12 +139,12 @@ nav ul li{
 }
 
 #start-here-btn{
-    /* width: 50%; */
+    width: 96%;
     height: auto;
     color: white;
-    font-size: 20px;
+    font-size: 55%;
     text-align: center;
     background: rgb(64,64,64);
-    padding: 8px;
+    padding: 3%;
     /* font-size: 50%; */
 }

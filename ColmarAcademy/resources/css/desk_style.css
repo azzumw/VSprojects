@@ -6,7 +6,6 @@
 
 body{
     font-family: sans-serif;
-    /* border: 1px solid red; */
 }
 
 #main{
@@ -24,7 +23,6 @@ header{
     z-index: 2;
     position: fixed;
     background: white;
-   /* border: 1px solid green; */
 }
 
 #desk-header{
@@ -87,9 +85,7 @@ nav ul li{
 
 .banner-section{
     height: auto;
-    /* width: 60%; */
     padding: 32px 24px;
-    /* border: 1px solid black; */
 }
 
 .banner-section img{
@@ -102,15 +98,11 @@ nav ul li{
     width: 40%;
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
-    /* font-size: 50px; */
-
 }
 
 .banner-section-right-inner-container{
     height: auto;
     width: 80%;
-    /* width: 70%; */
     min-width: 355px;
     display: flex;
     flex-direction: column;
@@ -118,24 +110,17 @@ nav ul li{
     color: rgb(64,64,64);
     margin: 32px 0;
     font-size: 40px;
-    /* border: 1px solid red; */
-    /* font-size: 0.82vw; */
 }
 
 .banner-section-right h1{
-    /* width: 55%; */
-    
     letter-spacing: 0.02em;
-    /* display: inline-block; */
     font-size: 40px;
 }
 
 .banner-section-right p{
-    /* width: 55%; */
     margin-top: 32px;
     margin-bottom: 24px;
     font-size: 28px;
-    /* display: inline-block; */
 }
 
 #start-here-btn{
@@ -146,5 +131,4 @@ nav ul li{
     text-align: center;
     background: rgb(64,64,64);
     padding: 3%;
-    /* font-size: 50%; */
 }

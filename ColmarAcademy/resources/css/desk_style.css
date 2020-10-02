@@ -76,11 +76,16 @@ nav ul li{
 .section{
     height: auto;
     width: 100%;
-    background: gainsboro;
-    position: relative;
-    top: 64px;
     display: flex;
     
+}
+
+/* section 1 */
+
+.section-1{
+    position: relative;
+    top: 64px;
+    background: gainsboro;
 }
 
 .banner-section{
@@ -131,4 +136,16 @@ nav ul li{
     text-align: center;
     background: rgb(64,64,64);
     padding: 3%;
+}
+
+/* section-2 */
+.section-2{
+    background: white;
+    height: auto;
+}
+
+.section-2 .section-2-destop-left{
+    height: auto;
+    width: 60%;
+    border: 1px solid tomato;
 }

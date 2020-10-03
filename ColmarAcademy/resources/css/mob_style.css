@@ -48,7 +48,7 @@
     #start-here-btn{
         width: 100%;
         background: rgb(128,128,128);
-        font-size: 5.0vw;
+        font-size: 4.2vw;
     }
 
     /* section 2 */
@@ -58,6 +58,32 @@
 
     .section-2-desktop-right{
         width: 100%;
+        padding-top: 0;
+    }
+
+
+    .section-2-desktop-right .card{
+   
+        display: flex;
+        flex-direction: column;
+        padding: 16px 16px;
+    }
+
+
+    .card .img-card-container-desk{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .card .img-card-container-desk .desk-img{
+        display: none;
+    }
+
+    .img-card-container-desk .mob-img{
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
 
     .card .info-card-container h3{
@@ -71,4 +97,6 @@
     .card .info-card-container a{
         font-size: 3.5vw;
     }
+
+
 }

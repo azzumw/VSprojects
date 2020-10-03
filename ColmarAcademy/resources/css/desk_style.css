@@ -152,7 +152,7 @@ nav ul li{
 
 .section-2 .section-2-desktop-left{
     width:60%;
-    /* border: 1px solid tomato; */
+    border: 1px solid tomato;
     padding: 32px 24px;
 }
 
@@ -195,7 +195,8 @@ nav ul li{
     display: flex;
     flex-direction: column;
     /* justify-content: space-evenly; */
-    margin-top: 16px;
+    border: 1px solid greenyellow;
+    padding-top: 16px;
 }
 
 .section-2-desktop-right .card{

@@ -89,6 +89,7 @@ nav ul li{
 }
 
 .banner-section{
+    width: 60%;
     height: auto;
     padding: 32px 24px;
 }
@@ -107,7 +108,7 @@ nav ul li{
 
 .banner-section-right-inner-container{
     height: auto;
-    width: 80%;
+    width: 60%;
     min-width: 355px;
     display: flex;
     flex-direction: column;
@@ -142,10 +143,89 @@ nav ul li{
 .section-2{
     background: white;
     height: auto;
+    width: 100%;
+    /* border: 1px solid gold; */
+    position: relative;
+    top: 64px;
+    display: flex;
 }
 
-.section-2 .section-2-destop-left{
+.section-2 .section-2-desktop-left{
+    width:60%;
+    /* border: 1px solid tomato; */
+    padding: 32px 24px;
+}
+
+.section-2-img-container{
     height: auto;
-    width: 60%;
-    border: 1px solid tomato;
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+.section-2-desktop-left img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-2-desktop-left-text-section{
+    color: rgb(64,64,64);
+}
+
+.section-2-desktop-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    margin-top: 16px;
+}
+
+.section-2-desktop-right .card{
+    /* height: 33%; */
+    /* border: 1px solid tomato; */
+    display: flex;
+    padding: 16px 16px
+}
+
+.section-2-desktop-right .card:hover{
+    background: gainsboro;
+    color: white;
+}
+
+.card .img-card-container{
+    max-width: 35%;
+    height: auto;
+    /* border: 1px solid royalblue; */
+}
+
+.img-card-container img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+
+}
+
+.card .info-card-container{
+    width:65%;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+   
+}
+
+.card .info-card-container h3{
+    color: rgb(64,64,64);
+    font-weight: 500;
+}
+
+.card .info-card-container p{
+    margin: 8px 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card .info-card-container a{
+    text-decoration: none;
+    color: skyblue;
 }

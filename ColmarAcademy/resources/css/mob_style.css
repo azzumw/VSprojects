@@ -51,4 +51,16 @@
         font-size: 5.0vw;
     }
 
+    /* section 2 */
+    .section-2 .section-2-desktop-left{
+        display: none;
+    }
+
+    .section-2-desktop-right{
+        width: 100%;
+        /* border:1px solid turquoise; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 }

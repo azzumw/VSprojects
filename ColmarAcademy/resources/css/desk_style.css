@@ -172,6 +172,24 @@ nav ul li{
     color: rgb(64,64,64);
 }
 
+.section-2-desktop-left-text-section h1{
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    margin-bottom: 24px;
+}
+
+.section-2-desktop-left-text-section p{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    word-spacing: 0.2em;
+    /* word-break: keep-all; */
+    word-wrap: none;
+}
+
+.section-2-desktop-left-text-section #p-author{
+    margin-top: 32px;
+}
+
 .section-2-desktop-right{
     width: 40%;
     display: flex;
@@ -217,15 +235,19 @@ nav ul li{
 .card .info-card-container h3{
     color: rgb(64,64,64);
     font-weight: 500;
+    /* font-size: 4.5vw; */
 }
 
 .card .info-card-container p{
     margin: 8px 0;
-    font-size: 15px;
+    /* font-size: 15px; */
     font-weight: 300;
 }
 
 .card .info-card-container a{
     text-decoration: none;
     color: skyblue;
+    width: fit-content;
+    /* border: 1px solid red; */
+    /* font-size: 3.8vw; */
 }

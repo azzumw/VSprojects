@@ -58,9 +58,17 @@
 
     .section-2-desktop-right{
         width: 100%;
-        /* border:1px solid turquoise; */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+    }
+
+    .card .info-card-container h3{
+        font-size: 4.5vw;
+    }
+
+    .card .info-card-container p{
+        font-size: 3.6vw;
+    }
+
+    .card .info-card-container a{
+        font-size: 3.5vw;
     }
 }

@@ -245,3 +245,64 @@ nav ul li{
     color: skyblue;
     width: fit-content;
 }
+
+
+/* section 3 */
+
+.section-3{
+    position: relative;
+    top:64px;
+    padding: 32px 72px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.section-3 h1{
+    color:rgb(64,64,64);
+    font-size:40px;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+}
+
+#learning-grid{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 32px 32px;
+}
+
+.grid-card{
+    background: white;
+}
+
+.grid-card .grid-card-img-container{
+    height: auto;
+    max-width: 100%;
+}
+
+.grid-card-img-container img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.grid-card .grid-card-text-section{
+    padding: 16px 16px 24px 16px;
+    text-align: start;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    line-height: 1.4em;
+}
+
+.grid-card .grid-card-text-section h3{
+    color: rgb(64,64,64);
+    /* font-weight: 500; */
+}
+
+.grid-card .courses-title{
+    margin: 8px 0;
+    text-transform: uppercase;
+}
+
+#learning-grid .grid-mob-card{
+    display: none;
+}

@@ -167,4 +167,13 @@
     #section-4-desktop-right{
         display: none;
     }
+
+    /* footer */
+    footer{
+        font-size: 3.5vw;
+    }
+
+    footer a{
+        display: none;
+    }
 }

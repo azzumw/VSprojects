@@ -1,4 +1,5 @@
 @media only screen and (max-device-width : 800px), (max-width:680px){
+    
     #desk-header{
         display: none;
     }
@@ -36,19 +37,107 @@
         padding: 0 16px;
     }
     .banner-section-right h1{
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .banner-section-right p{
         margin-top: 32px;
         margin-bottom: 24px;
-        font-size: 6.6vw;
+        font-size: 6vw;
     }
 
     #start-here-btn{
         width: 100%;
         background: rgb(128,128,128);
-        font-size: 5.0vw;
+        font-size: 4.2vw;
     }
 
+    /* section 2 */
+    .section-2 .section-2-desktop-left{
+        display: none;
+    }
+
+    .section-2-desktop-right{
+        width: 100%;
+
+        padding-top: 0;
+    }
+
+
+    .section-2-desktop-right .card{
+   
+        display: flex;
+        flex-direction: column;
+        padding: 16px 16px;
+    }
+
+
+    .card .img-card-container-desk{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .card .img-card-container-desk .desk-img{
+        display: none;
+    }
+
+    .img-card-container-desk .mob-img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card .info-card-container h3{
+        font-size: 4.5vw;
+    }
+
+    .card .info-card-container p{
+        font-size: 3.6vw;
+    }
+
+    .card .info-card-container a{
+        font-size: 3.5vw;
+    }
+
+    /* section 3 */
+
+    .section-3{
+        padding: 32px 16px;
+    }
+    .section-3 h1{
+        margin-bottom: 16px;
+        font-size: 8vw;
+    }
+
+    #learning-grid{
+        grid-template-columns: 1fr;
+        grid-gap: 8px;
+    }
+
+    .grid-card .grid-card-text-section h3{
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+
+    .grid-card .grid-card-text-section p{
+        font-weight:4.2vw;
+    }
+
+    #learning-grid .desk-grid-card{
+        display: none;
+    }
+
+    #learning-grid .grid-mob-card{
+        display: block;
+        padding: 24px 16px;
+        background: gainsboro;
+        color:rgb(64,64,64);
+        text-align: start;
+    }
+
+    .grid-mob-card h3{
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
 }

@@ -140,4 +140,31 @@
         font-size: 4.5vw;
         font-weight: 500;
     }
+
+    /* section 4 */
+
+    .section-4{
+        padding: 32px 0 24px 0;  
+    }
+    .section-4 #section-4-title{
+        margin-bottom: 16px;
+        font-size: 8vw;
+    }
+
+    .section-4 #section-4-desktop-left{
+        width:100%;
+        padding: 0 0 24px 0;
+    }
+
+    #section-4-img-container{
+        width: 100%;
+    }
+
+    .section-4-left-text-section{
+        display: none;
+    }
+
+    #section-4-desktop-right{
+        display: none;
+    }
 }

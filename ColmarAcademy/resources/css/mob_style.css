@@ -12,9 +12,6 @@
         justify-content: space-evenly;
     }
 
-    #mob-header img{
-        flex-grow: 1;
-    }
 
     .section{
         flex-direction: column;
